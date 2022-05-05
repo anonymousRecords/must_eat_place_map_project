@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'GimpoGothicBold00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicBold00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+ @media all and (min-width: 1024px) {
+    .inner{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+} 
+body{
+    margin: 0 auto;
+    }
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
+}
+#logo{
+    font-family: 'GimpoGothicBold00';
+    font-weight: bold;
+}
+button{
+    font-family: 'GimpoGothicBold00';
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color: white;
+}  
+h1{
+    font-family: 'GimpoGothicBold00';
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 3px red; */
+}
+.first_row{
+    font-family: 'GimpoGothicBold00';
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
