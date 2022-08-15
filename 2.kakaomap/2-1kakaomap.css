@@ -1,46 +1,44 @@
 @font-face {
-    font-family: 'GimpoGothicBold00';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicBold00.woff') format('woff');
+    font-family: "KyoboHandwriting2020A";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff")
+      format("woff");
     font-weight: normal;
     font-style: normal;
-    }
- @media all and (min-width: 1024px) {
-    .inner{
-        max-width: 1024px;
-        margin: 0 auto;
-    }
-} 
-header{
-    background-color: bisque;
-    width: 1024px;
-    height: 50px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 10px;
+    font-family: "KyoboHandwriting2020A";
+  }
+  
+  nav {
+    background-color: #e69a06;
+  }
+  
+  .nav-container {
+    padding: 1rem;
     display: flex;
-    justify-content: space-between; 
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 10px;
-}
-button, input {
+  }
+  
+  .nav-contact {
     border: 0;
-    outline: 0;
+    background: none;
     cursor: pointer;
-    font-weight: bold;
-    background-color: transparent;
-}
-h1{
-    background-color: blue;
-}
-input{
-    width: 240px;
-    height: 50px;
-    background-color: red;
-    margin: 5px;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.first_row{
-    justify-content: space-around;
-}
+    font-family: inherit;
+  }
+  
+  @media all and (min-width: 1024px) {
+    .inner {
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+  }
