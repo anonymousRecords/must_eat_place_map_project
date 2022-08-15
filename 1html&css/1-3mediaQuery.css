@@ -5,32 +5,32 @@
     font-style: normal;
     }
 body {
+    padding: 0;
     margin: 0;
-    }
+}
 nav{
-    width: 100vw;
-    height: 50px;
     background-color: bisque;
+    min-width: 500px;
+    height: 20px;
+    padding: 40px 150px;
+    font-family: 'GimpoGothicBold00';
 }
 .container{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 1rem;
 }
 #logo{
-    font-family: 'GimpoGothicBold00';
     font-weight: bold;
 }
 button{
-    font-family: 'GimpoGothicBold00';
     border: 0;
     outline: 0;
     cursor: pointer;
-    background-color: bisque;
+    font-weight: bold;
+    background-color: transparent;
 }
-/* @media (max-width: 1024px) {
-    .container{
-        padding: 1rem 0;
+@media screen and (max-width: 1024px) {
+    nav{
+        padding: 40px;
     }
-} */
-/* 내가 한 거는 딱 nav만 해당되어서 나중에 다른 내용이 추가되면 다시 수정해야하는 어려움이 있음 */
+}
