@@ -9,32 +9,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./2.1kakaomap.css">
+    <link rel="stylesheet" href="./2-1kakaomap.css">
 </head>
 <body>
-    <nav>
-        <div class="inner">
+    <div class="inner">
+        <header>
+            <h3>맛집지도</h3>
+            <button>Contact</button>
+        </header>
+        <nav>
+            <h1>맛집 카테고리를 선택해보세요</h1>
             <div class="container">
-                <div id="logo">맛집지도</div>
-                <button>Contact</button>
+                <div class="first_row">
+                    <input type="button" value="한식"/>
+                    <input type="button" value="중식"/>
+                    <input type="button" value="일식"/>
+                    <input type="button" value="양식"/>
+                </div>
+                <div class="second_row">
+                    <input type="button" value="분식"/>
+                    <input type="button" value="구이"/>
+                    <input type="button" value="회/초밥"/>
+                    <input type="button" value="기타"/>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class="content">
-        <h1>맛집 카테고리를 선택해보세요</h1>
-        <div class="category">
-                <div class="first_row row1">한식 </div>
-                <div class="first_row row2">중식</div>
-                <div class="first_row row3">일식</div>
-                <div class="first_row row4">양식</div>
-            <!-- <div class="row2">
-                <div>분식</div>
-                <div>구이</div>
-                <div>회/초밥</div>
-                <div>기타</div>
-            </div> -->
-        </div>
-        <a href="https://map.kakao.com/?urlX=524520&urlY=1108468&urlLevel=3&map_type=TYPE_MAP&map_hybrid=false" target="_blank"><img width="504" height="310" src="https://map2.daum.net/map/mapservice?FORMAT=PNG&SCALE=2.5&MX=524520&MY=1108468&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo" style="border:1px solid #ccc"></a><div class="hide" style="overflow:hidden;padding:7px 11px;border:1px solid #dfdfdf;border-color:rgba(0,0,0,.1);border-radius:0 0 2px 2px;background-color:#f9f9f9;width:482px;"><strong style="float: left;"><img src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png" width="72" height="16" alt="카카오맵"></strong><div style="float: right;position:relative"><a style="font-size:12px;text-decoration:none;float:left;height:15px;padding-top:1px;line-height:15px;color:#000" target="_blank" href="https://map.kakao.com/?urlX=524520&urlY=1108468&urlLevel=3&map_type=TYPE_MAP&map_hybrid=false">지도 크게 보기</a></div></div>
+        </nav>
     </div>
 </body>
 </html>

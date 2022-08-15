@@ -10,39 +10,37 @@
         margin: 0 auto;
     }
 } 
-body{
-    margin: 0 auto;
-    }
-.container{
+header{
+    background-color: bisque;
+    width: 1024px;
+    height: 50px;
     display: flex;
-    justify-content: space-between;
-    padding: 1rem 1rem 0 1rem;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 10px;
 }
-#logo{
-    font-family: 'GimpoGothicBold00';
-    font-weight: bold;
-}
-button{
-    font-family: 'GimpoGothicBold00';
+button, input {
     border: 0;
     outline: 0;
     cursor: pointer;
-    background-color: white;
-}  
-h1{
-    font-family: 'GimpoGothicBold00';
+    font-weight: bold;
+    background-color: transparent;
 }
-.category{
+h1{
+    background-color: blue;
+}
+input{
+    width: 240px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+}
+.container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* border: 3px red; */
+    flex-direction: column;
+    align-items: center;
 }
 .first_row{
-    font-family: 'GimpoGothicBold00';
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
-}
-.content{
-    display: inline-block;
+    justify-content: space-around;
 }
